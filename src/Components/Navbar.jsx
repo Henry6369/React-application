@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <>
       
-      <nav className='z-10 hidden md:flex lg:flex justify-around fixed w-full'>
+      <nav className='z-10 hidden md:flex lg:flex justify-around fixed w-full bg-[#181818]'>
         <img src={logo} alt="logo" className='w-[12%] h-12 cursor-pointer mt-1' />
         <div className='flex items-center justify-between lg:w-[30%] md:w-[40%]'>
            {
