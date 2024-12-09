@@ -144,3 +144,32 @@ export const partners = [
         review: 'Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.'
     },
 ]
+export const footer = [
+    {
+        name: "Company",
+        links: [
+            "Home",
+            "Examples",
+            "Pricing",
+            'Updates',
+        ]
+    },
+    {
+        name: "Resources",
+        links: [
+            "Home",
+            "Examples",
+            "Pricing",
+            'Updates',
+        ]
+    },
+    {
+        name: "About",
+        links: [
+            "Home",
+            "Examples",
+            "Pricing",
+            'Updates',
+        ]
+    }
+]

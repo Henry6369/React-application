@@ -5,6 +5,7 @@ import Contents from '../InnerPages/Contents';
 import Gallery from '../InnerPages/Gallery';
 import Partners from '../InnerPages/Partners';
 import Testimonials from '../InnerPages/Testimonials';
+import Try from '../InnerPages/Try';
 const Home = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const Home = () => {
       <Gallery/>
       <Partners/>
       <Testimonials/>
+      <Try/>
     </div>
   )
 }
