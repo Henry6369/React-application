@@ -7,6 +7,8 @@ import About from './Pages/About';
 import Product from './Pages/Product';
 import Contact from './Pages/Contact';
 import Footer from './Components/Footer';
+import Login from './Pages/Login';
+import Register from './Pages/Register';
 //rafce
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
         <Route path='/about' element={ <About/> } />
         <Route path='/product' element={ <Product/> } />
         <Route path='/contact' element={ <Contact/> } />
+        <Route path='/login' element={ <Login/> } />  
+        <Route path='/register' element={ <Register/> } />   
       </Routes>
       <Footer/>
     </div>

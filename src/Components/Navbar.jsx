@@ -18,7 +18,7 @@ const Navbar = () => {
     <>
       
       <nav className='z-10 hidden md:flex lg:flex justify-around fixed w-full bg-[#181818]'>
-        <img src={logo} alt="logo" className='w-[12%] h-12 cursor-pointer mt-1' />
+        <Link to={'/'} className='w-[12%] h-12 cursor-pointer mt-1'> <img src={logo} alt="logo"/> </Link>
         <div className='flex items-center justify-between lg:w-[30%] md:w-[40%]'>
            {
               navlinks.map((link, Index)=>{
@@ -30,7 +30,7 @@ const Navbar = () => {
               })
            }
         </div>
-        <button className='w-[139px] h-[50px] rounded-[3px] border-[1px] mt-2'>Login</button>
+        <Link to={'/login'}> <button className='w-[139px] h-[50px] rounded-[3px] border-[1px] mt-2' >Login</button> </Link>
       </nav>
 
       {/* mobile view */}
